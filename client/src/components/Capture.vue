@@ -1,15 +1,15 @@
 <template>
     <div>
         <div id="instructions">
-            <p><strong>Capture Instructions</strong></p>
+            <p><strong>Data Collection Instructions</strong></p>
             <ol>
-                <li>Select desired gesture</li>
-                <li>Get into position!</li>
-                <li>Spacebar to start</li>
+                <li>Get into the right position, lighting condition</li>
+                <li>Keep different type of Masks ready</li>
+                <li>Wear the Mask and select the Radio-Button accordingly</li>
+                <li>Press Spacebar to start image capture </li>
             </ol>
             <p><strong>Training Instructions</strong></p>
-            <p>Once you uploaded a balanced set of pictures for each category
-                head over to <a href="customvision.ai">customvision</a> to train and download the model</p>
+            <p>All the Data Captured is securely transfered to a Blob storage and deleted after training processo <a href="customvision.ai">customvision</a> to train and download the model</p>
         </div>
         <div id="radioselection">
             <span :key="item+index" v-for="(item, index) in labels">
@@ -81,7 +81,7 @@
                 interval: null,
                 model: null,
                 modelmeta: null,
-                labels: ['none', 'rock', 'paper', 'scissors'],
+                labels: ['No Mask', 'Surgical Mask', 'N95 Mask', 'Fashionalbe Mask'],
                 modelLabels: [],
                 probabilities: [],
                 guess: 'none',
