@@ -1,16 +1,5 @@
 <template>
     <div>
-        <div id="instructions">
-            <p><strong>Data Collection Instructions</strong></p>
-            <ol>
-                <li>Get into the right position, lighting condition</li>
-                <li>Keep different type of Masks ready</li>
-                <li>Wear the Mask and select the Radio-Button accordingly</li>
-                <li>Press Spacebar to start image capture </li>
-            </ol>
-            <p><strong>Training Instructions</strong></p>
-            <p>All the Data Captured is securely transfered to a Blob storage and deleted after training processo <a href="customvision.ai">customvision</a> to train and download the model</p>
-        </div>
         <div id="radioselection">
             <span :key="item+index" v-for="(item, index) in labels">
                 <input type="radio" :id="item" name="sign" :value="item" 
