@@ -7,7 +7,6 @@
 
 <script>
 import Capture from './components/Capture.vue'
-import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
 
 export default {
   name: 'app',
@@ -18,6 +17,7 @@ export default {
 </script>
 
 <style>
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
 body, html {
   padding: 10px;
   height: 100%;
