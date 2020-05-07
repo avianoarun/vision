@@ -20,6 +20,8 @@ export default {
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
 body, html {
   padding: 10px;
+  height:100vh;
+  width:100vw;
   margin: 0;
   font-family: 'Roboto Condensed', sans-serif;
   background: linear-gradient(150deg,#281483 15%,#8f6ed5 70%,#d782d9 94%);
