@@ -18,11 +18,12 @@ export default {
 
 <style>
 body, html {
-  padding: 0;
+  padding: 10px;
+  height: 100%;
   margin: 0;
   width: 100%;
   background: linear-gradient(150deg,#281483 15%,#8f6ed5 70%,#d782d9 94%);
-  min-height: 100%; 
+  overflow: hidden;
 }
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
