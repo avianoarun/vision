@@ -7,7 +7,7 @@
 
 <script>
 import Capture from './components/Capture.vue'
-@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
 
 export default {
   name: 'app',
