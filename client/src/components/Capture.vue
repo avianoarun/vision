@@ -181,13 +181,13 @@
                 this.stopCapture()
                 setTimeout(this.stopCapture, 60010)
                 this.interval = setInterval(this.addImage, 500)
-                this.video.style.border = "thick solid #FF0000"
+                this.video.style.border = "thick solid 10px #FF0000"
             },
             stopCapture: function () {
                 if(this.interval != null) {
                     clearInterval(this.interval);
                     this.interval = null;
-                    this.video.style.border = "solid 1px gray"
+                    this.video.style.border = "solid 10px white"
                 }
             },
             addImage: function () {
