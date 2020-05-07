@@ -239,13 +239,8 @@
 </script>
 
 <style scoped>
-    #instructions {
-        width: 640px;
-        margin: 0px auto;
-        text-align: left;
-    }
     video {
-        border: solid 1px gray;
+        border: solid 10px white;
         transform: rotateY(180deg);
         -webkit-transform:rotateY(180deg); /* Safari and Chrome */
         -moz-transform:rotateY(180deg); /* Firefox */
@@ -253,7 +248,7 @@
     }
 
     #output {
-        border: solid 1px gray;
+        border: solid 10px white;
         height: 240px;
         width: 320px;
         margin-left: 10px;
