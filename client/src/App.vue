@@ -22,7 +22,7 @@ body, html {
   margin: 0;
   width: 100%;
   background: linear-gradient(150deg,#281483 15%,#8f6ed5 70%,#d782d9 94%);
-  min-height: 100%; // add this rule
+  min-height: 100%; 
 }
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
