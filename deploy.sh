@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Function app and storage account names must be unique.
-location=westus2
+location=eastus
 resourceGroup=$1
 storageName=${resourceGroup}storage
 functionAppName=${resourceGroup}funcapp
