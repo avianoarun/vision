@@ -1,4 +1,4 @@
 {
     "saveEndpoint": "https://avianofuncapp.azurewebsites.net/api/save",
-    "maxSubmitCount": 4
+    "maxSubmitCount": 40
 }
