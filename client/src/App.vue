@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <h1> Face Mask Detection</h1>
+    <h1> Covid Face Mask Detection</h1>
     <Capture/>
   </div>
 </template>
