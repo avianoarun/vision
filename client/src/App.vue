@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <h1>rock-paper-scissors</h1>
+    <h1>Mask Detection</h1>
     <Capture/>
   </div>
 </template>
