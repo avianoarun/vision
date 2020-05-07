@@ -7,6 +7,7 @@
 
 <script>
 import Capture from './components/Capture.vue'
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
 
 export default {
   name: 'app',
@@ -26,7 +27,7 @@ body, html {
   overflow: hidden;
 }
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
