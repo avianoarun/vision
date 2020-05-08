@@ -34,6 +34,7 @@ body, html {
   width:100vw;
   margin: 0;
   background: linear-gradient(150deg,#281483 15%,#8f6ed5 70%,#d782d9 94%);
+overflow-x:hidden;
 }
 #app {
   font-family: 'Roboto Condensed', sans-serif;
@@ -43,6 +44,7 @@ body, html {
   color: #ffffff;
 }
 #wrapper{
+margin-top:10px;
 flex-direction: column;
     box-shadow: 0 8px 10px 1px rgba(0, 0, 0, .14), 0 3px 14px 2px rgba(0, 0, 0, .12), 0 5px 5px -3px rgba(0, 0, 0, .3);
     width: 95%;
