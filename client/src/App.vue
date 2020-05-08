@@ -20,7 +20,7 @@
     </div>
     <div id="InvalidMask-card">
     <h1>Invalid mask</h1>
-    <img src="invalid mask.jpg" alt = "surgical mask" height="50" width="70">
+    <img src="invalid.jpg" alt = "invalid mask" height="50" width="70">
     </div>
     </div>
     
