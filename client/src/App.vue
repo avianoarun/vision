@@ -1,7 +1,12 @@
 <template>
   <div id="app">
+  <div id="heading">
   <h1> Covid Face Mask Detection</h1>
-  <div id="wrapper">
+ </div>
+ <div id="description">
+ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+ <div>
+ <div id="wrapper">
     <h1> Face Mask Detection</h1>
         <Capture/>
   </div>
@@ -43,6 +48,9 @@ flex-direction: column;
     box-shadow: 0 8px 10px 1px rgba(0, 0, 0, .14), 0 3px 14px 2px rgba(0, 0, 0, .12), 0 5px 5px -3px rgba(0, 0, 0, .3);
     width: 95%;
     display: flex;
-    padding bottom: 30px;
+    padding-bottom: 30px;
+ }
+ #heading{
+ display:flex;
  }
 </style>
