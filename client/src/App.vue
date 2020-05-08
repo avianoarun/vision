@@ -41,7 +41,7 @@ body, html {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #ffffff;
-  margin-top: 50px;
+  margin-top: 20px;
 }
 #wrapper{
 flex-direction: column;
@@ -52,5 +52,6 @@ flex-direction: column;
  }
  #heading{
  display:flex;
+ justify-content:center;
  }
 </style>
