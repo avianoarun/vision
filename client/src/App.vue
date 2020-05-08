@@ -50,7 +50,7 @@
    Statics
    </div>
    <div>
-    <img src="./statics.jpg" alt = "detailed-data">
+    <img src="./statics.jpeg" alt = "detailed-data">
    <ChartBar />
    </div>
     
