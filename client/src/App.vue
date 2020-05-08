@@ -24,6 +24,18 @@
     </div>
     </div>
     
+    <div id="row1">
+  <div id="surgical-card">
+  <h1>N95-mask</h1>
+  <img src="n95.jpg" alt = "n95-mask" height="50" width="70">
+  
+    </div>
+    <div id="InvalidMask-card">
+    <h1>Fasion/cloth mask</h1>
+    <img src="cloth.jpg" alt = "cloth-mask" height="50" width="70">
+    </div>
+    </div>
+    
     
   </div>
 </template>
