@@ -8,10 +8,12 @@
  </div>
  <div id="wrapper">
     <h1> Face Mask Detection</h1>
-    <p>surgical mask :  a surgical mask help to block large-particle droplets, splashes, sprays, or splatter that may contain viruses and bacteria, keeping it from reaching the wearer's mouth and nose. Surgical masks are effective barriers for retaining large droplets released from the mouth and nose by the wearer in public.  Surgical masks help reduce exposure of the wearer's saliva and respiratory. secretions to others that could otherwise travel up to 26 feet. Surgical mask also remind wearers not to touch their mouth or nose, which could otherwise transfer viruses and bacteria after having touched a contaminated surface.
-    </p>
+    
         <Capture/>
+        
   </div>
+  <p>surgical mask :  a surgical mask help to block large-particle droplets, splashes, sprays, or splatter that may contain viruses and bacteria, keeping it from reaching the wearer's mouth and nose. Surgical masks are effective barriers for retaining large droplets released from the mouth and nose by the wearer in public.  Surgical masks help reduce exposure of the wearer's saliva and respiratory. secretions to others that could otherwise travel up to 26 feet. Surgical mask also remind wearers not to touch their mouth or nose, which could otherwise transfer viruses and bacteria after having touched a contaminated surface.
+    </p>
   </div>
 </template>
 
@@ -38,11 +40,13 @@ body, html {
   background: linear-gradient(150deg,#281483 15%,#8f6ed5 70%,#d782d9 94%);
 overflow-x:hidden;
 }
+h1{
+text-align:center;
+}
 #app {
   font-family: 'Roboto Condensed', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
   color: #ffffff;
 }
 #wrapper{
