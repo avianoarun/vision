@@ -34,7 +34,13 @@
     <h1>Fasion/cloth mask</h1>
     <img src="cloth.jpg" alt = "cloth-mask" height="50" width="70">
     </div>
-    </div>
+     </div>
+   <div id="statics-heading">
+   Statics
+   </div>
+   <div>
+    <ChartBar />
+   </div>
     
     
   </div>
@@ -43,12 +49,14 @@
 <script>
 
 import Capture from './components/Capture.vue';
+import ChartBar from './components/ChartBar.vue';
 
 
 export default {
   name: 'app',
   components: {
-    Capture
+    Capture,
+    ChartBar
   }
 }
 </script>
