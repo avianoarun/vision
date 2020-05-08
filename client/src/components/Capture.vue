@@ -1,15 +1,8 @@
 <template>
     <div>
-        <div id="radioselection">
-            <span :key="item+index" v-for="(item, index) in labels">
-                <input type="radio" :id="item" name="sign" :value="item" 
-                    :checked="selectedSign == item"
-                    v-model="selectedSign">
-                <label :for="item">{{item}}</label>
-                &nbsp;
-            </span>
+        
             <div v-if="interval != null">Click Spacebar to Stop!</div>
-        </div>
+       
         <div id="images">
             <div id="videoPane">
                 <video id="video" width="320" height="240" autoplay></video>
@@ -70,7 +63,6 @@
                 interval: null,
                 model: null,
                 modelmeta: null,
-                labels: ['No Mask', 'Surgical Mask', 'N95 Mask', 'Fashionalbe Mask'],
                 modelLabels: [],
                 probabilities: [],
                 guess: 'none',
