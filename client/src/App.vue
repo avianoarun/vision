@@ -73,6 +73,7 @@ flex-direction: column;
  justify-content:center;
  }
  #row1{
+ 
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -81,9 +82,10 @@ flex-direction: column;
  }
  #surgical-card
 { 
-   width:100%;
+   width:44%;
    display: flex;
-    margin-top: 100px;
+   margin-right: 20px;
+    margin-top: 80px;
     align-items: center;
     flex-direction: column;
     padding: 0 30px 30px 30px;
@@ -91,7 +93,7 @@ flex-direction: column;
 }
 #InvalidMask-card{
 display: flex;
-    margin-top: 100px;
+    margin-top: 80px;
     align-items: center;
     flex-direction: column;
     padding: 0 30px 30px 30px;
