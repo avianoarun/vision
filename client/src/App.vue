@@ -7,8 +7,9 @@
 </template>
 
 <script>
+import header from './components/header.vue';
 import Capture from './components/Capture.vue'
-import header from './components/header.vue'
+
 
 export default {
   name: 'app',
