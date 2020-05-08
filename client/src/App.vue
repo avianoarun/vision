@@ -8,7 +8,7 @@
 
 <script>
 import Capture from './components/Capture.vue'
-import Analytics from './components/Analytics.vue'
+import header from './components/header.vue'
 
 export default {
   name: 'app',
