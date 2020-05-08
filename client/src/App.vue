@@ -23,7 +23,6 @@ body, html {
   height:100vh;
   width:100vw;
   margin: 0;
-  font-family: 'Roboto Condensed', sans-serif;
   background: linear-gradient(150deg,#281483 15%,#8f6ed5 70%,#d782d9 94%);
 }
 #app {
