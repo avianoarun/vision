@@ -15,14 +15,11 @@
   <div id="row1">
   <div id="surgical-card">
   <h1>Surgical mask</h1>
-  <p>Surgical mask help to block large-particle droplets, splashes, sprays, or splatter that may contain viruses and bacteria, keeping it from reaching the wearer's mouth and nose. Surgical masks are effective barriers for retaining large droplets released from the mouth and nose by the wearer in public.  Surgical masks help reduce exposure of the wearer's saliva and respiratory. secretions to others that could otherwise travel up to 26 feet. Surgical mask also remind wearers not to touch their mouth or nose, which could otherwise transfer viruses and bacteria after having touched a contaminated surface.
-    </p>
+  
     </div>
     <div id="InvalidMask-card">
     <h1>Invalid mask</h1>
-    <p>These are less effective at protecting us, because most have gaps near nose from where tiny droplet can be inhaled,As for whether fabric face coverings are effective protection against the novel corona-virus , the answer is yes, as long as you're also social distancing and washing your hands.
-"If you’re infected, especially if you’re asymptomatic, it actually will keep in a lot of large droplets from sneezes or coughs, and if you’re not infected, in addition to the social distancing and hand-washing, it will protect you from very large droplets,"
-    </p>
+    
     </div>
     </div>
     
