@@ -13,12 +13,12 @@
         
   </div>
   <div id="row1">
-  <div id="surgical card>
+  <div id="surgical-card">
   <h1>Surgical mask</h1>
   <p>Surgical mask help to block large-particle droplets, splashes, sprays, or splatter that may contain viruses and bacteria, keeping it from reaching the wearer's mouth and nose. Surgical masks are effective barriers for retaining large droplets released from the mouth and nose by the wearer in public.  Surgical masks help reduce exposure of the wearer's saliva and respiratory. secretions to others that could otherwise travel up to 26 feet. Surgical mask also remind wearers not to touch their mouth or nose, which could otherwise transfer viruses and bacteria after having touched a contaminated surface.
     </p>
     </div>
-    <div id="N95Mask">
+    <div id="N95Mask-card">
     <h1>Surgical mask</h1>
     <p>N stands “Non-Oil” meaning that if no oil-based particulates are present, 95: means having a 95 percent efficiency.  N95 mask can filter 95% of particles that are 100-300 nm in size.
     </p>
@@ -74,7 +74,34 @@ flex-direction: column;
  justify-content:center;
  }
  #row1{
- display:flex;
- align-items:center;
+ display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+    margin: auto;
  }
+ #surgical-card
+{
+   display: flex;
+    margin-top: 100px;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 30px 30px 30px;
+    box-shadow: 0 0 10px #444;
+}
+#N95Mask-card{
+display: flex;
+    margin-top: 100px;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 30px 30px 30px;
+    box-shadow: 0 0 10px #444;
+
+}
+
 </style>
