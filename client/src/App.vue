@@ -1,7 +1,8 @@
 <template>
   <div id="app">
+  <h1> Covid Face Mask Detection</h1>
   <div id="wrapper">
-    <h1> Covid Face Mask Detection</h1>
+    <h1> Face Mask Detection</h1>
         <Capture/>
   </div>
   </div>
@@ -37,4 +38,10 @@ body, html {
   color: #ffffff;
   margin-top: 60px;
 }
+#wrapper{
+flex-direction: column;
+    box-shadow: 0 8px 10px 1px rgba(0, 0, 0, .14), 0 3px 14px 2px rgba(0, 0, 0, .12), 0 5px 5px -3px rgba(0, 0, 0, .3);
+    width: 95%;
+    display: flex;
+    }
 </style>
