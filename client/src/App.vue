@@ -41,7 +41,7 @@ export default {
 </script>
 
 <style>
-@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
 body, html {
   padding: 10px;
   margin: 0;
