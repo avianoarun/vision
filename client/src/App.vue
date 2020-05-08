@@ -47,11 +47,10 @@
     </div>
      </div>
    <div id="statics-heading">
-   Statics
+ Statistics
    </div>
    <div>
     <img src="./statics.jpeg" alt = "detailed-data">
-   <ChartBar />
    </div>
     
     
@@ -61,14 +60,13 @@
 <script>
 
 import Capture from './components/Capture.vue';
-import ChartBar from './components/ChartBar.vue';
 
 
 export default {
   name: 'app',
   components: {
     Capture,
-    ChartBar
+   
   }
 }
 </script>
@@ -103,6 +101,10 @@ flex-direction: column;
  display:flex;
  justify-content:center;
  }
+ #description
+ {
+ line-height: 1.6;
+ }
  #row1{
  
     display: flex;
@@ -131,6 +133,12 @@ width:44%;
     padding: 0 30px 30px 30px;
     box-shadow: 0 0 10px #444;
 
+}
+#statics-heading{
+margin: 20px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 40px;
 }
 
 </style>
