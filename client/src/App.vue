@@ -15,11 +15,12 @@
   <div id="row1">
   <div id="surgical-card">
   <h1>Surgical mask</h1>
+  <img src="surge.png" alt = "surgical mask" height="50" width="70">
   
     </div>
     <div id="InvalidMask-card">
     <h1>Invalid mask</h1>
-    
+    <img src="invalid mask.png" alt = "surgical mask" height="50" width="70">
     </div>
     </div>
     
@@ -52,7 +53,7 @@ h1{
 text-align:center;
 }
 #app {
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Raleway';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #ffffff;
