@@ -15,24 +15,24 @@
   <div id="row1">
   <div id="surgical-card">
   <h1>Surgical mask</h1>
-  <img src="./surge.jpeg" alt = "surgical mask" height="50" width="70">
+  <img src="./surge.jpeg" alt = "surgical mask" height="100" width="100">
   
     </div>
     <div id="InvalidMask-card">
     <h1>Invalid mask</h1>
-    <img src="./invalid.jpg" alt = "invalid mask" height="50" width="70">
+    <img src="./invalid.jpg" alt = "invalid mask" height="50" width="100">
     </div>
     </div>
     
     <div id="row1">
   <div id="surgical-card">
   <h1>N95-mask</h1>
-  <img src="n95.jpg" alt = "n95-mask" height="50" width="70">
+  <img src="./n95.jpg" alt = "n95-mask" height="100" width="100">
   
     </div>
     <div id="InvalidMask-card">
     <h1>Fasion/cloth mask</h1>
-    <img src="cloth.jpg" alt = "cloth-mask" height="50" width="70">
+    <img src="./cloth.jpg" alt = "cloth-mask" height="100" width="100">
     </div>
      </div>
    <div id="statics-heading">
