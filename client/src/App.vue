@@ -8,7 +8,7 @@
 
 <script>
 import header from './components/header.vue';
-import Capture from './components/Capture.vue'
+import Capture from './components/Capture.vue';
 
 
 export default {
