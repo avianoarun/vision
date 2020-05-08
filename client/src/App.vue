@@ -93,6 +93,7 @@ flex-direction: column;
 }
 #InvalidMask-card{
 display: flex;
+width:44%;
     margin-top: 80px;
     align-items: center;
     flex-direction: column;
