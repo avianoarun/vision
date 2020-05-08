@@ -60,7 +60,8 @@ export default {
   }
 }
 </script>
-
+<style lang="css">
+</style>
 <style>
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 body, html {
