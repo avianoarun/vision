@@ -4,7 +4,7 @@
   <h1> Covid Face Mask Detection</h1>
  </div>
  <div id="description">
- Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+ The virus is spread at an alarming rate without the knowledge of the infected person. Covid-19 spreads when infected person coughs, sneezes or talks and droplets from their mouth or nose are launched into air and land in the “T Zone(Eyes, Nose, Mouth)” of people nearby. Therefore, wearing Mask is necessary step to be taken for safety of humanity as masks are the safety shield from the transfer of droplets. The usage of masks is the best and most effective method to stop the transfer of virus directly safeguarding self and others.
  </div>
  <div id="wrapper">
     <h1> Face Mask Detection</h1>
@@ -12,8 +12,20 @@
         <Capture/>
         
   </div>
-  <p>surgical mask :  a surgical mask help to block large-particle droplets, splashes, sprays, or splatter that may contain viruses and bacteria, keeping it from reaching the wearer's mouth and nose. Surgical masks are effective barriers for retaining large droplets released from the mouth and nose by the wearer in public.  Surgical masks help reduce exposure of the wearer's saliva and respiratory. secretions to others that could otherwise travel up to 26 feet. Surgical mask also remind wearers not to touch their mouth or nose, which could otherwise transfer viruses and bacteria after having touched a contaminated surface.
+  <div id="row1">
+  <div id="surgical card>
+  <h1>Surgical mask</h1>
+  <p>Surgical mask help to block large-particle droplets, splashes, sprays, or splatter that may contain viruses and bacteria, keeping it from reaching the wearer's mouth and nose. Surgical masks are effective barriers for retaining large droplets released from the mouth and nose by the wearer in public.  Surgical masks help reduce exposure of the wearer's saliva and respiratory. secretions to others that could otherwise travel up to 26 feet. Surgical mask also remind wearers not to touch their mouth or nose, which could otherwise transfer viruses and bacteria after having touched a contaminated surface.
     </p>
+    </div>
+    <div id="N95Mask">
+    <h1>Surgical mask</h1>
+    <p>N stands “Non-Oil” meaning that if no oil-based particulates are present, 95: means having a 95 percent efficiency.  N95 mask can filter 95% of particles that are 100-300 nm in size.
+    </p>
+    </div>
+    </div>
+    
+    
   </div>
 </template>
 
@@ -60,5 +72,9 @@ flex-direction: column;
  #heading{
  display:flex;
  justify-content:center;
+ }
+ #row1{
+ display:flex;
+ align-items:center;
  }
 </style>
