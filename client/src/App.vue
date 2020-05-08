@@ -16,11 +16,17 @@
   <div id="surgical-card">
   <h1>Surgical mask</h1>
   <img src="./surge.jpeg" alt = "surgical mask" height="100" width="100">
+  <p> 
+  A surgical mask help to block large-particle droplets, splashes, sprays, or splatter that may contain viruses and bacteria, keeping it from reaching the wearer's mouth and nose.
+  </p>
   
     </div>
     <div id="InvalidMask-card">
     <h1>Invalid mask</h1>
-    <img src="./invalid.jpg" alt = "invalid mask" height="50" width="100">
+    <img src="./invalid.jpg" alt = "invalid mask" height="100" width="100">
+    <p>
+     These are less effective at protecting us, because most have gaps near nose from where tiny droplet can be inhaled.
+    </p>
     </div>
     </div>
     
@@ -28,18 +34,24 @@
   <div id="surgical-card">
   <h1>N95-mask</h1>
   <img src="./n95.jpg" alt = "n95-mask" height="100" width="100">
-  
+  <p>
+   N stands “Non-Oil” meaning that if no oil-based particulates are present, 95: means having a 95 percent efficiency.  N95 mask can filter 95% of particles that are 100-300 nm in size.
+  </p>
     </div>
     <div id="InvalidMask-card">
     <h1>Fasion/cloth mask</h1>
     <img src="./cloth.jpg" alt = "cloth-mask" height="100" width="100">
+    <p>
+     These are less effective at protecting us, because most have gaps near nose from where tiny droplet can be inhaled.
+    </p>
     </div>
      </div>
    <div id="statics-heading">
    Statics
    </div>
    <div>
-    <ChartBar />
+    <img src="./statics.jpg" alt = "detailed-data">
+   <ChartBar />
    </div>
     
     
