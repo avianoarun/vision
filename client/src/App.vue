@@ -1,17 +1,20 @@
 <template>
   <div id="app">
     <h1> Covid Face Mask Detection</h1>
+    <app-header/>
     <Capture/>
   </div>
 </template>
 
 <script>
 import Capture from './components/Capture.vue'
+import Analytics from './components/Analytics.vue'
 
 export default {
   name: 'app',
   components: {
-    Capture
+    'Capture':Capture,
+    'app-header':header
   }
 }
 </script>
