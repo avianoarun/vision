@@ -1,8 +1,26 @@
 <template>
     <div>
-        
+        <div id="instructions">
+            <p><strong>Capture Instructions</strong></p>
+            <ol>
+                <li>Select desired gesture</li>
+                <li>Get into position!</li>
+                <li>Spacebar to start</li>
+            </ol>
+            <p><strong>Training Instructions</strong></p>
+            <p>Once you uploaded a balanced set of pictures for each category
+                head over to <a href="https://customvision.ai">customvision</a> to train and download the model</p>
+        </div>
+        <div id="radioselection">
+            <span :key="item+index" v-for="(item, index) in labels">
+                <input type="radio" :id="item" name="sign" :value="item" 
+                    :checked="selectedSign == item"
+                    v-model="selectedSign">
+                <label :for="item">{{item}}</label>
+                &nbsp;
+            </span>
             <div v-if="interval != null">Click Spacebar to Stop!</div>
-       
+        </div>
         <div id="images">
             <div id="videoPane">
                 <video id="video" width="320" height="240" autoplay></video>
@@ -63,6 +81,7 @@
                 interval: null,
                 model: null,
                 modelmeta: null,
+                labels: ['none', 'Bit', 'Doug', 'Penny'],
                 modelLabels: [],
                 probabilities: [],
                 guess: 'none',
@@ -173,13 +192,13 @@
                 this.stopCapture()
                 setTimeout(this.stopCapture, 60010)
                 this.interval = setInterval(this.addImage, 500)
-                this.video.style.border = "thick solid 10px #FF0000"
+                this.video.style.border = "thick solid #FF0000"
             },
             stopCapture: function () {
                 if(this.interval != null) {
                     clearInterval(this.interval);
                     this.interval = null;
-                    this.video.style.border = "solid 10px white"
+                    this.video.style.border = "solid 1px gray"
                 }
             },
             addImage: function () {
@@ -231,8 +250,13 @@
 </script>
 
 <style scoped>
+    #instructions {
+        width: 640px;
+        margin: 0px auto;
+        text-align: left;
+    }
     video {
-        border: solid 10px white;
+        border: solid 1px gray;
         transform: rotateY(180deg);
         -webkit-transform:rotateY(180deg); /* Safari and Chrome */
         -moz-transform:rotateY(180deg); /* Firefox */
@@ -240,7 +264,7 @@
     }
 
     #output {
-        border: solid 10px white;
+        border: solid 1px gray;
         height: 240px;
         width: 320px;
         margin-left: 10px;
