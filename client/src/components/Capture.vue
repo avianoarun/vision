@@ -1,26 +1,5 @@
 <template>
     <div>
-        <div id="instructions">
-            <p><strong>Capture Instructions</strong></p>
-            <ol>
-                <li>Select desired gesture</li>
-                <li>Get into position!</li>
-                <li>Spacebar to start</li>
-            </ol>
-            <p><strong>Training Instructions</strong></p>
-            <p>Once you uploaded a balanced set of pictures for each category
-                head over to <a href="https://customvision.ai">customvision</a> to train and download the model</p>
-        </div>
-        <div id="radioselection">
-            <span :key="item+index" v-for="(item, index) in labels">
-                <input type="radio" :id="item" name="sign" :value="item" 
-                    :checked="selectedSign == item"
-                    v-model="selectedSign">
-                <label :for="item">{{item}}</label>
-                &nbsp;
-            </span>
-            <div v-if="interval != null">Click Spacebar to Stop!</div>
-        </div>
         <div id="images">
             <div id="videoPane">
                 <video id="video" width="320" height="240" autoplay></video>
